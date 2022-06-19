@@ -1,15 +1,20 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <VacationPicker />
+  <CountryDetail />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+ import VacationPicker from "./components/VacationPicker";
+ import CountryDetail from "./components/countryDetail.vue"
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,VacationPicker,CountryDetail 
   }
 }
 </script>
